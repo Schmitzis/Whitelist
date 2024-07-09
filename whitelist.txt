@@ -1,1 +1,2 @@
 eu2.contabostorage.com
+mparticle.map.fastly.net
