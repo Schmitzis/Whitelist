@@ -2,3 +2,7 @@ eu2.contabostorage.com
 mparticle.map.fastly.net
 outreach.abetterinternet.org
 statsig.anthropic.com
+statsigapi.net
+featuregates.org
+challenges.cloudflare.com
+sentry.io
