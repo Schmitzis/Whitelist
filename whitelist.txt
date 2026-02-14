@@ -12,3 +12,5 @@ m.youtube.com
 youtubei.googleapis.com
 youtube.googleapis.com
 dns.nextdns.io
+895376.dns.nextdns.io
+becf78.dns.nextdns.io
