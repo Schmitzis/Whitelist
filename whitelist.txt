@@ -6,3 +6,9 @@ statsigapi.net
 featuregates.org
 challenges.cloudflare.com
 sentry.io
+youtube.com
+www.youtube.com
+m.youtube.com
+youtubei.googleapis.com
+youtube.googleapis.com
+dns.nextdns.io
