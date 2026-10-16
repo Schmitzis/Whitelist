@@ -18,3 +18,6 @@ becf78.dns.nextdns.io
 sentry.io
 *.sentry.io
 *.sentry-cdn.com
+
+# Pendo product analytics (work tools), blocked by hagezi PRO++
+cdn.pendo.io
