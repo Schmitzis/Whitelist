@@ -1,23 +1,22 @@
-eu2.contabostorage.com
-mparticle.map.fastly.net
-outreach.abetterinternet.org
-statsig.anthropic.com
-statsigapi.net
-featuregates.org
-challenges.cloudflare.com
-sentry.io
-youtube.com
-www.youtube.com
-m.youtube.com
-youtubei.googleapis.com
-youtube.googleapis.com
-dns.nextdns.io
-895376.dns.nextdns.io
-becf78.dns.nextdns.io
-# Sentry stuff
-sentry.io
+# Allowlist for blocky (LAN) and both NextDNS profiles (roaming).
+# blocky matches subdomains only for "*.domain" entries, a plain line is the exact
+# name; NextDNS strips the "*." and always includes subdomains. Comments and blank
+# lines are ignored by both.
+
+# Claude.ai / Anthropic: Statsig feature flags (hagezi PRO++ lists *.statsigapi.net)
+# and Cloudflare Turnstile
+*.statsigapi.net
+*.featuregates.org
+*.challenges.cloudflare.com
+
+# Sentry error reporting (hagezi PRO++ lists *.sentry.io and *.sentry-cdn.com)
 *.sentry.io
 *.sentry-cdn.com
 
-# Pendo product analytics (work tools), blocked by hagezi PRO++
-cdn.pendo.io
+# Pendo product analytics (work tools), hagezi PRO++ lists *.cdn.pendo.io
+*.cdn.pendo.io
+
+# Older entries, in no current list
+eu2.contabostorage.com
+mparticle.map.fastly.net
+outreach.abetterinternet.org
